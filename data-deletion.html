@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Deletion Request | Gym Management Ecosystem</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .deletion-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .procedure-card {
+            background: var(--bg-surface);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        .procedure-card h3 {
+            color: var(--primary-cyan);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .procedure-card ol {
+            padding-left: 20px;
+        }
+
+        .procedure-card li {
+            margin-bottom: 12px;
+            color: var(--text-muted);
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .data-table th,
+        .data-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .data-table th {
+            background: rgba(0, 229, 255, 0.1);
+            color: var(--primary-cyan);
+        }
+
+        .highlight-box {
+            border-left: 4px solid var(--secondary-green);
+            background: rgba(0, 255, 127, 0.05);
+            padding: 20px;
+            border-radius: 0 12px 12px 0;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <img src="app_icon.png" alt="Gym App Logo">
+                    <span>Gym<span class="text-cyan">Eco</span></span>
+                </a>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="privacy.html">Privacy</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container content-section">
+        <h1>Data Deletion Request</h1>
+        <p class="last-updated">Last Updated: February 21, 2026</p>
+
+        <section>
+            <p>At <strong>Gym Management Ecosystem</strong> (developed by <strong>Bougherara Ramzi Dhia</strong>), we
+                respect your privacy and provide you with complete control over your personal data. This page outlines
+                how you can request the deletion of your data from our systems.</p>
+
+            <div class="highlight-box">
+                <p><strong>Note:</strong> You can request the deletion of <strong>all</strong> your data (account
+                    closure) or <strong>specific parts</strong> of your data without deleting your account.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>How to Request Deletion</h2>
+
+            <div class="procedure-card">
+                <h3><i class="fas fa-mobile-alt"></i> Option 1: In-App (Automated)</h3>
+                <p>The fastest way to delete your entire account and associated data:</p>
+                <ol>
+                    <li>Open the <strong>Gym Owner</strong>, <strong>Gym Staff</strong>, or <strong>Gym Member</strong>
+                        app.</li>
+                    <li>Go to <strong>Settings</strong> or <strong>Profile</strong>.</li>
+                    <li>Select <strong>Account Management</strong> or <strong>Security</strong>.</li>
+                    <li>Tap <strong>Delete Account</strong> and follow the confirmation prompts.</li>
+                </ol>
+            </div>
+
+            <div class="procedure-card">
+                <h3><i class="fas fa-envelope"></i> Option 2: Email Request (Partial or Full)</h3>
+                <p>Use this method if you want to delete specific data or cannot access the app:</p>
+                <ol>
+                    <li>Send an email to <a href="mailto:bougherara.ramzidhia@univ_khenchela.com"
+                            class="text-cyan">bougherara.ramzidhia@univ_khenchela.com</a>.</li>
+                    <li>Use the subject: <strong>Data Deletion Request - [Your Name/App]</strong>.</li>
+                    <li>Clearly specify if you want to delete <strong>all data</strong> or <strong>specific
+                            records</strong> (e.g., "Delete my attendance history but keep my membership").</li>
+                    <li>Include your registered email address for verification.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section>
+            <h2>Data Retention & Deletion Details</h2>
+            <p>Below is a summary of the types of data we process and how deletion is handled:</p>
+
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Data Type</th>
+                        <th>Deletion Policy</th>
+                        <th>Retention Period</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Account Profile (Name, Email, Phone)</td>
+                        <td>Permanently deleted upon request.</td>
+                        <td>Immediate (up to 30 days processing).</td>
+                    </tr>
+                    <tr>
+                        <td>Attendance & Visit History</td>
+                        <td>Deleted upon request or account closure.</td>
+                        <td>Immediate (up to 30 days processing).</td>
+                    </tr>
+                    <tr>
+                        <td>Payment & Transaction Records</td>
+                        <td>Aggregated/Anonymized for accounting.</td>
+                        <td>Up to 5 years (Legal/Tax requirement).</td>
+                    </tr>
+                    <tr>
+                        <td>Gym Configurations (Owners)</td>
+                        <td>Permanently deleted upon account closure.</td>
+                        <td>Immediate (up to 30 days processing).</td>
+                    </tr>
+                    <tr>
+                        <td>Technical Logs & Analytics</td>
+                        <td>Anonymized (non-identifiable).</td>
+                        <td>Up to 12 months.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Processing Time</h2>
+            <p>Once a request is received via email, we will verify your identity and process the request within
+                <strong>30 days</strong>. You will receive a confirmation once the deletion is complete. In-app account
+                deletion is typically processed immediately, though some data might remain in backups for a short period
+                until overwritten.
+            </p>
+        </section>
+
+        <a href="index.html" class="back-link">← Back to Home</a>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">Gym<span class="text-cyan">Eco</span></div>
+            <div class="footer-links">
+                <a href="owner_privacy.html">Owner Privacy</a>
+                <a href="staff_privacy.html">Staff Privacy</a>
+                <a href="member_privacy.html">Member Privacy</a>
+                <a href="terms_of_service.html">Terms of Service</a>
+                <a href="data-deletion.html">Data Deletion</a>
+                <a href="mailto:bougherara.ramzidhia@univ_khenchela.com">Support</a>
+            </div>
+            <div class="copyright">
+                &copy; 2026 Gym Management Ecosystem. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</body>
+
+</html>
